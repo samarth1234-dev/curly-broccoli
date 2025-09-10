@@ -50,3 +50,11 @@ if st.button("Calculate"):
     st.line_chart(
         df.set_index("Year")[["Invested (₹)", "Future Value (₹)"]]
     )
+st.markdown(
+    """
+    ---
+    👉 Want to check your credit score?  
+    [Go to CIBIL Score Estimator](https://credscore.streamlit.app/)  
+    """,
+    unsafe_allow_html=True
+)
